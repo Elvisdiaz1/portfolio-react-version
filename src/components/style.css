@@ -236,6 +236,33 @@ nav li a,
 #resume-download-link {
   text-decoration: none;
 }
+#contact-container {
+  background-color: #252525;
+  padding: 5rem 0;
+}
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 15%;
+}
+.form p {
+  color: white;
+  margin-top: 5px;
+  font-size: 2rem;
+}
+#textarea {
+  padding: 0 15% 5% 0;
+}
+#submit-button {
+  display: block;
+  padding: 6px 15px;
+  margin-top: 3%;
+}
 
 /* Media Query for Mobile*/
 @media screen and (max-width: 430px) {

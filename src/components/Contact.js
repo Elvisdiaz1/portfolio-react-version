@@ -39,8 +39,9 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div id="contact-container">
       <form className="form">
+        <p>Name:</p>
         <input
           value={name}
           name="name"
@@ -48,6 +49,7 @@ const Contact = () => {
           type="text"
           placeholder="Name"
         />
+        <p>Email:</p>
         <input
           value={email}
           name="email"
@@ -55,9 +57,10 @@ const Contact = () => {
           type="email"
           placeholder="email"
         />
-
+        <p>Message:</p>
         <textarea
           name="textarea"
+          id="textarea"
           value={textarea}
           onChange={handleInputChange}
           type="textarea"
@@ -65,6 +68,7 @@ const Contact = () => {
         />
         <button
           type="button"
+          id="submit-button"
           onClick={handleFormSubmit}
           onChange={handleInputChange}
         >
