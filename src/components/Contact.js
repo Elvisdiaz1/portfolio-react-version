@@ -35,11 +35,11 @@ const Contact = () => {
     setTextarea("");
 
     setEmail("");
-    alert(`Hello ${name}`);
   };
 
   return (
     <div id="contact-container">
+      <h1>Contact</h1>
       <form className="form">
         <p>Name:</p>
         <input

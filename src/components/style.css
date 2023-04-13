@@ -255,6 +255,10 @@ nav li a,
   margin-top: 5px;
   font-size: 2rem;
 }
+#contact-container h1 {
+  color: red;
+  margin-left: 1%;
+}
 #textarea {
   padding: 0 15% 5% 0;
 }
@@ -357,6 +361,19 @@ nav li a,
   #resume-download {
     margin-left: -15%;
   }
+  #contact-container h1 {
+    margin-left: 35%;
+  }
+  .form {
+    margin-left: 20%;
+  }
+
+  .form input {
+    width: 75%;
+  }
+  #submit-button {
+    margin-left: 20%;
+  }
 }
 
 /* Media Query for Tablet */
@@ -452,5 +469,22 @@ nav li a,
   }
   #resume-download {
     margin-left: -10%;
+  }
+  #contact-container h1 {
+    margin-left: 35%;
+  }
+  .form {
+    margin-left: 20%;
+  }
+
+  .form input {
+    width: 75%;
+  }
+  #textarea {
+    padding: 0 48% 5% 0;
+  }
+  #submit-button {
+    margin-left: 27%;
+    padding: 0.5rem 2.5rem;
   }
 }
