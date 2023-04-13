@@ -217,6 +217,26 @@ nav li a,
   color: #252525;
 }
 
+#resume-container {
+  background-color: #252525;
+  color: white;
+  padding: 5% 0;
+}
+
+#resume {
+  margin-left: 5%;
+  font-size: 1.5rem;
+}
+
+#resume span {
+  color: red;
+  font-size: 2rem;
+}
+
+#resume-download-link {
+  text-decoration: none;
+}
+
 /* Media Query for Mobile*/
 @media screen and (max-width: 430px) {
   nav h1 {
@@ -295,9 +315,20 @@ nav li a,
   #contact ul {
     flex-direction: column;
     align-items: center;
+    margin-left: -9%;
   }
   #contact li {
     padding-top: 5%;
+  }
+  #resume {
+    margin-left: 32%;
+    font-size: 1.5rem;
+  }
+  #resume ul {
+    margin-left: -27%;
+  }
+  #resume-download {
+    margin-left: -15%;
   }
 }
 
@@ -383,5 +414,16 @@ nav li a,
   }
   #contact {
     margin-top: -2%;
+  }
+
+  #resume {
+    margin-left: 32%;
+    font-size: 1.5rem;
+  }
+  #resume ul {
+    margin-left: 10%;
+  }
+  #resume-download {
+    margin-left: -10%;
   }
 }
