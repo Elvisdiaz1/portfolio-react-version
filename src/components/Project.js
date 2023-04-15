@@ -12,7 +12,7 @@ const Project = () => {
       <section id="project-container" style={style.color}>
         <h2>My Projects</h2>
         <div id="card-container">
-          <section className="card" id="project1">
+          <section className="card " id="project1">
             <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj4iIex24T9AhUcEFkFHcbECxIQPAgJ">
               <div className="project-text">
                 <h5>Calculator</h5>

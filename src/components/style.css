@@ -81,7 +81,7 @@ nav li a,
 
 #project-container h2 {
   position: relative;
-  left: 40%;
+  text-align: center;
   font-size: 3em;
   padding-bottom: 1%;
   margin-top: -4%;
@@ -310,7 +310,6 @@ nav li a,
   }
 
   #project-container h2 {
-    left: 17%;
     margin-top: -2%;
   }
 
@@ -329,14 +328,24 @@ nav li a,
   #project1 {
     padding: 80px;
     max-width: 100%;
-    width: 90%;
-    margin-left: 45px;
+    width: 80%;
+    margin-left: 70px;
+  }
+
+  #project2,
+  #project3 {
+    padding: 38%;
+    left: 5%;
   }
 
   .project-text {
-    left: 6%;
-    bottom: 35%;
+    left: 12%;
+    bottom: 30%;
     font-size: 100%;
+  }
+
+  #project1 .project-text {
+    bottom: 10%;
   }
 
   #contact {
@@ -418,13 +427,12 @@ nav li a,
   }
 
   #project-container h2 {
-    left: 30%;
     margin-top: -2%;
   }
 
   #card-container {
     position: relative;
-    left: -6%;
+    left: 0%;
     flex-direction: column;
   }
 
@@ -439,7 +447,7 @@ nav li a,
     max-width: 100%;
     max-height: 400px;
     width: 80%;
-    margin-left: 11%;
+    margin-left: 2%;
   }
 
   #project2,
@@ -448,9 +456,10 @@ nav li a,
   }
 
   .project-text {
-    left: 26%;
-    bottom: 35%;
-    font-size: 100%;
+    left: 25%;
+    bottom: 25%;
+    font-size: 200%;
+    padding: 3rem;
   }
 
   #contact h2 {
