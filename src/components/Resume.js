@@ -4,6 +4,7 @@ import resume from "../images/resume.pdf";
 const Resume = () => {
   return (
     <div id="resume-container">
+      <h1 id="resume-title">My Resume</h1>
       <div id="resume">
         <span>Front End Specialities</span>
         <ul>

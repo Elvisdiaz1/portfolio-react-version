@@ -35,11 +35,26 @@ const Contact = () => {
     setTextarea("");
 
     setEmail("");
+
+    // const { target } = e;
+    if (email === "") {
+      setErrorMessage("Email must be filled");
+    }
+    if (textarea === "") {
+      setErrorMessage("Message must be filled");
+    }
+    if (name === "") {
+      setErrorMessage("Name must be filled");
+    } else {
+      setErrorMessage("");
+    }
   };
 
   return (
     <div id="contact-container">
       <h1>Contact</h1>
+      <p id="requirements">Please fill out all fields.</p>
+
       <form className="form">
         <p>Name:</p>
         <input
@@ -69,8 +84,8 @@ const Contact = () => {
         <button
           type="button"
           id="submit-button"
+          disabled={!email || !textarea || !name}
           onClick={handleFormSubmit}
-          onChange={handleInputChange}
         >
           Submit
         </button>

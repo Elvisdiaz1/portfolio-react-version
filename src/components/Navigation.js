@@ -9,7 +9,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            className={currentPage === "About" ? "nav ul :active" : "nav-link"}
           >
             About Me
           </a>
