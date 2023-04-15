@@ -12,9 +12,9 @@ const Project = () => {
       <section id="project-container" style={style.color}>
         <h2>My Projects</h2>
         <div id="card-container">
-          <section class="card" id="project1">
+          <section className="card" id="project1">
             <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj4iIex24T9AhUcEFkFHcbECxIQPAgJ">
-              <div class="project-text">
+              <div className="project-text">
                 <h5>Calculator</h5>
                 <p>JavaScript</p>
                 <h6>Click here to view project</h6>
@@ -22,9 +22,9 @@ const Project = () => {
             </a>
           </section>
 
-          <section class="card" id="project2">
+          <section className="card" id="project2">
             <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj4iIex24T9AhUcEFkFHcbECxIQPAgJ">
-              <div class="project-text">
+              <div className="project-text">
                 <h5>Recipes</h5>
                 <p>React</p>
                 <h6>Click here to view project</h6>
@@ -32,9 +32,9 @@ const Project = () => {
             </a>
           </section>
 
-          <section class="card" id="project3">
+          <section className="card" id="project3">
             <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj4iIex24T9AhUcEFkFHcbECxIQPAgJ">
-              <div class="project-text">
+              <div className="project-text">
                 <h5>Tic-Tac-Toe</h5>
                 <p>JavaScript</p>
                 <h6>Click here to view project</h6>
