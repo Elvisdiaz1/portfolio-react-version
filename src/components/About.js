@@ -1,6 +1,7 @@
 import React from "react";
 import selfie from "../images/selfie.jpeg";
 
+// About Me section
 const About = () => {
   return (
     <section id="heading">

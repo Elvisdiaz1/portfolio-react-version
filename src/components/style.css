@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/* Nav Styles */
 nav {
   background-color: red;
 
@@ -26,10 +27,6 @@ nav ul {
 }
 
 nav ul :hover {
-  color: #252525;
-}
-
-nav ul :active {
   color: #252525;
 }
 
@@ -67,6 +64,7 @@ nav li a,
   flex-direction: row-reverse;
 }
 
+/* About Me styling */
 #heading {
   background-color: #252525;
   color: white;
@@ -79,13 +77,6 @@ nav li a,
   max-width: 70%;
 }
 
-#project-container h2 {
-  position: relative;
-  text-align: center;
-  font-size: 3em;
-  padding-bottom: 1%;
-  margin-top: -4%;
-}
 #heading h2 {
   padding-top: 1%;
   position: relative;
@@ -102,12 +93,22 @@ nav li a,
   padding-bottom: 2%;
 }
 
+/* About Me Selfie styling */
 #heading img {
   width: 20em;
   height: 25em;
   position: relative;
   left: 40%;
   margin-top: 2em;
+}
+
+/* Portfolio styling */
+#project-container h2 {
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 1%;
+  margin-top: -4%;
 }
 
 #project-container {
@@ -118,6 +119,7 @@ nav li a,
 #project-container h2 {
   color: red;
 }
+/* Portfolio projects styling */
 #card-container {
   display: flex;
   flex-wrap: wrap;
@@ -133,10 +135,6 @@ nav li a,
   flex-basis: 915px;
   padding: 4em 4em 4em 6em;
   max-width: 40%;
-}
-
-.no-flex {
-  display: block;
 }
 
 #project1,
@@ -201,6 +199,7 @@ nav li a,
   padding: 5rem;
 }
 
+/* Footer styling */
 #footer ul {
   font-size: 30px;
   display: flex;
@@ -227,6 +226,7 @@ nav li a,
   color: #252525;
 }
 
+/* Resume page styling */
 #resume-container {
   background-color: #252525;
   color: white;
@@ -246,6 +246,14 @@ nav li a,
 #resume-download-link {
   text-decoration: none;
 }
+#resume-title {
+  color: red;
+
+  font-size: 4rem;
+  position: relative;
+  left: 5rem;
+}
+/* Contact page styling */
 #contact-container {
   background-color: #252525;
   padding: 5rem 0;
@@ -289,16 +297,9 @@ nav li a,
   margin-top: 3%;
 }
 
-#resume-title {
-  color: red;
-
-  font-size: 4rem;
-  position: relative;
-  left: 5rem;
-}
-
 /* Media Query for Mobile*/
 @media screen and (max-width: 430px) {
+  /* Nav styling */
   nav h1 {
     padding: 10px 167px;
     margin-left: -10%;
@@ -316,6 +317,7 @@ nav li a,
     padding-top: 0.5em;
   }
 
+  /* About Me styling */
   #heading h2 {
     padding-top: 3%;
     left: 0;
@@ -332,10 +334,11 @@ nav li a,
     max-width: 80%;
   }
 
+  /* Portfolio styling */
   #project-container h2 {
     margin-top: -2%;
   }
-
+  /* Portfolio project styling */
   #card-container {
     position: relative;
     left: -6%;
@@ -371,6 +374,7 @@ nav li a,
     bottom: 10%;
   }
 
+  /* Footer styling */
   #footer {
     margin-top: -4%;
   }
@@ -389,6 +393,7 @@ nav li a,
   #footer li {
     padding-top: 5%;
   }
+  /* Resume page styling */
   #resume {
     margin-left: 32%;
     font-size: 1.5rem;
@@ -409,6 +414,7 @@ nav li a,
     left: -10px;
     position: relative;
   }
+  /* Contact page styling */
   #contact-container h1 {
     margin-left: 26%;
   }
@@ -430,6 +436,7 @@ nav li a,
 
 /* Media Query for Tablet */
 @media screen and (min-width: 430px) and (max-width: 850px) {
+  /* Nav styling */
   nav h1 {
     padding: 10px 386px;
     margin-left: -6%;
@@ -446,7 +453,7 @@ nav li a,
   nav ul li {
     padding-top: 0.5em;
   }
-
+  /* About Me styling */
   #heading h2 {
     padding-top: 3%;
     left: 0;
@@ -463,10 +470,12 @@ nav li a,
     max-width: 80%;
   }
 
+  /* Portfolio styling */
   #project-container h2 {
     margin-top: -2%;
   }
 
+  /* Portfolio project styling */
   #card-container {
     position: relative;
     left: 0%;
@@ -499,6 +508,7 @@ nav li a,
     padding: 3rem;
   }
 
+  /* Footer styling */
   #footer h2 {
     font-size: 2em;
     padding-left: 45%;
@@ -517,6 +527,7 @@ nav li a,
     margin-top: -2%;
   }
 
+  /* Resume page styling */
   #resume {
     margin-left: 32%;
     font-size: 1.5rem;
@@ -527,6 +538,11 @@ nav li a,
   #resume-download {
     margin-left: -10%;
   }
+  #resume-title {
+    left: 0;
+    text-align: center;
+  }
+  /* Contact page styling */
   #contact-container h1 {
     margin-left: 31%;
     font-size: 5rem;
@@ -547,9 +563,5 @@ nav li a,
   #submit-button {
     margin-left: 27%;
     padding: 0.5rem 2.5rem;
-  }
-  #resume-title {
-    left: 0;
-    text-align: center;
   }
 }

@@ -1,6 +1,8 @@
 import React from "react";
+// Imports resume pdf
 import resume from "../images/resume.pdf";
 
+// Resume Section
 const Resume = () => {
   return (
     <div id="resume-container">
@@ -23,7 +25,7 @@ const Resume = () => {
           <li>Express</li>
         </ul>
         <p id="resume-download">
-          Check out my resume!{" "}
+          Check out my resume! {/* Download Link for resume */}
           <a id="resume-download-link" href={resume} download>
             Download Resume
           </a>

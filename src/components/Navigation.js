@@ -1,49 +1,28 @@
 import React from "react";
 
+// Nav Bar
 const Navigation = ({ currentPage, handlePageChange }) => {
   return (
     <nav>
       <h1>Elvis</h1>
       <ul>
         <li>
-          <a
-            href="#about"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav ul :active" : "nav-link"}
-          >
+          <a href="#about" onClick={() => handlePageChange("About")}>
             About Me
           </a>
         </li>
         <li>
-          <a
-            href="#portfolio"
-            onClick={() => handlePageChange("Portfolio")}
-            className={
-              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-            }
-          >
+          <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
             Portfolio
           </a>
         </li>
         <li>
-          <a
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
-          >
+          <a href="#contact" onClick={() => handlePageChange("Contact")}>
             Contact Me
           </a>
         </li>
         <li>
-          <a
-            href="#resume"
-            onClick={() => handlePageChange("Resume")}
-            className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
-            }
-          >
+          <a href="#resume" onClick={() => handlePageChange("Resume")}>
             Resume
           </a>
         </li>

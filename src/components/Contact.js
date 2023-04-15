@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 
+// imports email validator from utils
 import { validateEmail } from "./utils/helpers";
 
+// Contact page
 const Contact = () => {
+  // Makes all contact form values start empty
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [textarea, setTextarea] = useState("");
-
   const [errorMessage, setErrorMessage] = useState("");
 
+  // Allows values to change
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -23,31 +26,21 @@ const Contact = () => {
     }
   };
 
+  // Determines if email is invalid and sets values to be empty after submit button is pressed
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
     if (!validateEmail(email)) {
       setErrorMessage("Email  is invalid");
       return;
+    } else {
+      setErrorMessage("");
     }
 
     setName("");
     setTextarea("");
 
     setEmail("");
-
-    // const { target } = e;
-    if (email === "") {
-      setErrorMessage("Email must be filled");
-    }
-    if (textarea === "") {
-      setErrorMessage("Message must be filled");
-    }
-    if (name === "") {
-      setErrorMessage("Name must be filled");
-    } else {
-      setErrorMessage("");
-    }
   };
 
   return (
@@ -81,9 +74,11 @@ const Contact = () => {
           type="textarea"
           placeholder="Message me Here"
         />
+        <p>{errorMessage}</p>
         <button
           type="button"
           id="submit-button"
+          // If all forms are filled, button is usable. Otherwise, its not
           disabled={!email || !textarea || !name}
           onClick={handleFormSubmit}
         >
