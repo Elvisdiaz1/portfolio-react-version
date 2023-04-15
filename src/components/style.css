@@ -153,7 +153,7 @@ nav li a,
 }
 
 #project1 {
-  background: url(https://storage.googleapis.com/replit/images/1670002823446_774b0b52bdb04e22247044ca3a843680.png);
+  background: url(../images/Screen\ Shot\ 2023-04-15\ at\ 7.34.29\ PM.png);
   background-size: cover;
   background-repeat: no-repeat;
   flex-grow: 2;
@@ -161,7 +161,7 @@ nav li a,
   padding: 80px;
   max-width: 70%;
   height: 15em;
-  background-position-y: 70%;
+  background-position-y: 10%;
 }
 
 #project1,
@@ -184,19 +184,19 @@ nav li a,
 }
 
 #project2 {
-  background: url(https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVjaXBlJTIwYm9va3xlbnwwfHwwfHw%3D&w=1000&q=80);
+  background: url(../images/Screen\ Shot\ 2023-04-15\ at\ 7.35.25\ PM.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 20%;
-  padding: 5rem;
+  padding: 6rem;
 }
 
 #project3 {
-  background: url(../images/tictactoe.png);
+  background: url(../images/Screen\ Shot\ 2023-04-15\ at\ 7.36.13\ PM.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 15%;
-  padding: 5rem;
+  background-position-y: 13%;
+  padding: 6rem;
 }
 
 /* Footer styling */
@@ -253,6 +253,7 @@ nav li a,
   position: relative;
   left: 5rem;
 }
+
 /* Contact page styling */
 #contact-container {
   background-color: #252525;
@@ -352,7 +353,7 @@ nav li a,
   }
 
   #project1 {
-    padding: 80px;
+    padding: 160px;
     max-width: 100%;
     width: 80%;
     margin-left: 50px;
@@ -371,7 +372,11 @@ nav li a,
   }
 
   #project1 .project-text {
-    bottom: 10%;
+    bottom: 20%;
+  }
+
+  .project-text a {
+    text-decoration: none;
   }
 
   /* Footer styling */
@@ -406,8 +411,8 @@ nav li a,
   }
 
   #resume-title {
-    left: 4rem;
-    font-size: 3rem;
+    text-align: center;
+    left: 0;
   }
 
   #resume span {
@@ -420,7 +425,7 @@ nav li a,
   }
   #requirements {
     font-size: 1.5rem;
-    left: 20%;
+    text-align: center;
   }
   .form {
     margin-left: 20%;
@@ -438,7 +443,7 @@ nav li a,
 @media screen and (min-width: 430px) and (max-width: 850px) {
   /* Nav styling */
   nav h1 {
-    padding: 10px 386px;
+    padding: 10px 360px;
     margin-left: -6%;
   }
   nav {
@@ -502,8 +507,8 @@ nav li a,
   }
 
   .project-text {
-    left: 25%;
-    bottom: 25%;
+    left: 5%;
+    bottom: 15%;
     font-size: 200%;
     padding: 3rem;
   }
@@ -548,7 +553,7 @@ nav li a,
     font-size: 5rem;
   }
   #requirements {
-    left: 30%;
+    text-align: center;
   }
   .form {
     margin-left: 20%;

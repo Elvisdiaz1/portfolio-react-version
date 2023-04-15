@@ -7,9 +7,6 @@ const Footer = () => {
       <h2>Contact Me!</h2>
       <ul>
         <li>
-          <a>777-777-7777</a>
-        </li>
-        <li>
           <a href="./index.html">elvis@website.com</a>
         </li>
         <li>
@@ -19,7 +16,7 @@ const Footer = () => {
           <a href="./index.html">Twitter</a>
         </li>
         <li>
-          <a href="./index.html">Youtube</a>
+          <a href="./index.html">Linkedin</a>
         </li>
       </ul>
     </section>
