@@ -32,5 +32,5 @@ This application license is: MIT
 
 ## Credits
 
--React - https://react.dev/
--Gh-pages - https://www.npmjs.com/package/gh-pages
+- React - https://react.dev/
+- Gh-pages - https://www.npmjs.com/package/gh-pages
