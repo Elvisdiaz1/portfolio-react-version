@@ -1,4 +1,5 @@
 import React from "react";
+
 // Imports resume pdf
 import resume from "../images/resume.pdf";
 
