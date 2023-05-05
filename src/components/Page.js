@@ -20,7 +20,6 @@ const Page = () => {
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-
     return <Resume />;
   };
   // Sets the current page
