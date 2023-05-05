@@ -1,7 +1,7 @@
 // App Organizer
 import React, { useState } from "react";
 import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+
 import Resume from "./Resume";
 import About from "./About";
 import Header from "./Header";
@@ -21,9 +21,6 @@ const Page = () => {
       return <Portfolio />;
     }
 
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
     return <Resume />;
   };
   // Sets the current page

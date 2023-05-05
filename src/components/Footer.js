@@ -7,16 +7,15 @@ const Footer = () => {
       <h2>Contact Me!</h2>
       <ul>
         <li>
-          <a href="./index.html">elvis@website.com</a>
+          <a href="./index.html">elvisdiaz020@gmail.com</a>
         </li>
         <li>
           <a href="https://github.com/Elvisdiaz1">GitHub</a>
         </li>
         <li>
-          <a href="./index.html">Twitter</a>
-        </li>
-        <li>
-          <a href="./index.html">Linkedin</a>
+          <a href="https://www.linkedin.com/in/elvis-diaz-39a08b19a/">
+            Linkedin
+          </a>
         </li>
       </ul>
     </section>

@@ -16,11 +16,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
             Portfolio
           </a>
         </li>
-        <li>
-          <a href="#contact" onClick={() => handlePageChange("Contact")}>
-            Contact Me
-          </a>
-        </li>
+
         <li>
           <a href="#resume" onClick={() => handlePageChange("Resume")}>
             Resume
