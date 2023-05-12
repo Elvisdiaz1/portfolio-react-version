@@ -39,12 +39,12 @@ const Project = () => {
           </section>
 
           <section className="card" id="project3">
-            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj4iIex24T9AhUcEFkFHcbECxIQPAgJ">
+            <a href="https://elvisdiaz1.github.io/password-generator/">
               <div className="project-text">
                 <h5>Password Generator</h5>
                 <p>JavaScript/HTML/CSS</p>
                 <h6>Click here to view project</h6>
-                <a href="https://elvisdiaz1.github.io/password-generator/">
+                <a href="https://github.com/Elvisdiaz1/password-generator">
                   Click here for the GitHub Repo
                 </a>
               </div>

@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <div id="resume-container">
       <h1 id="resume-title">My Resume</h1>
-      <div id="resume">
+      <div id="resume-list">
         <span>Front End Specialities</span>
         <ul>
           <li>HTML</li>
