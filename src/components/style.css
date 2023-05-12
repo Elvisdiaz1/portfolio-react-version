@@ -222,7 +222,11 @@ nav li a,
   margin-top: -1%;
 }
 
-#footer a :hover {
+#footer li {
+  color: white;
+}
+
+#footer a:hover {
   color: #252525;
 }
 
