@@ -2,7 +2,7 @@ import React from "react";
 
 const style = {
   color: {
-    backgroundColor: "#252525",
+    backgroundColor: "white",
   },
 };
 
