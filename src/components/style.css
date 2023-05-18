@@ -80,9 +80,10 @@ nav li a,
 #heading h2 {
   padding-top: 1%;
   position: relative;
-  left: 42%;
   font-size: 3em;
   color: #00bfff;
+  text-align: center;
+  margin-left: -3%;
 }
 
 .paragraph1 {
@@ -213,7 +214,7 @@ nav li a,
   font-size: 3em;
   color: #252525;
   padding-bottom: 3%;
-  left: 40%;
+  text-align: center;
 }
 
 #footer {
