@@ -17,7 +17,7 @@ nav {
 
 nav h1 {
   font-size: 3rem;
-  padding: 5px 5px 5px 10%;
+  padding: 5px 5px 5px 30px;
   background-color: #87cefa;
 }
 
@@ -212,7 +212,7 @@ nav li a,
   position: relative;
   margin-top: -8%;
   font-size: 3em;
-  color: #252525;
+  color: white;
   padding-bottom: 3%;
   text-align: center;
 }
