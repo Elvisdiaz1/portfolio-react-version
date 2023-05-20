@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-react-version/static/css/main.30ae6f89.css",
-    "main.js": "/portfolio-react-version/static/js/main.87137ed1.js",
+    "main.css": "/portfolio-react-version/static/css/main.ab180242.css",
+    "main.js": "/portfolio-react-version/static/js/main.cbd8e818.js",
     "static/media/selfie.jpeg": "/portfolio-react-version/static/media/selfie.afd0cf73192ff30cc2cf.jpeg",
     "static/media/resume.pdf": "/portfolio-react-version/static/media/resume.96ed3656249ffa825d54.pdf",
-    "static/media/Screen Shot 2023-04-15 at 7.34.29 PM.png": "/portfolio-react-version/static/media/Screen Shot 2023-04-15 at 7.34.29 PM.5c437014d01c19e9cc82.png",
-    "static/media/Screen Shot 2023-04-15 at 7.35.25 PM.png": "/portfolio-react-version/static/media/Screen Shot 2023-04-15 at 7.35.25 PM.867e8c75d1aff98c9a0b.png",
-    "static/media/Screen Shot 2023-04-15 at 7.36.13 PM.png": "/portfolio-react-version/static/media/Screen Shot 2023-04-15 at 7.36.13 PM.f90a389a783eb0063fa9.png",
+    "static/media/historWe.png": "/portfolio-react-version/static/media/historWe.5c437014d01c19e9cc82.png",
+    "static/media/breezyCocktail.png": "/portfolio-react-version/static/media/breezyCocktail.867e8c75d1aff98c9a0b.png",
+    "static/media/passwordGenerator.png": "/portfolio-react-version/static/media/passwordGenerator.f90a389a783eb0063fa9.png",
     "index.html": "/portfolio-react-version/index.html",
-    "main.30ae6f89.css.map": "/portfolio-react-version/static/css/main.30ae6f89.css.map",
-    "main.87137ed1.js.map": "/portfolio-react-version/static/js/main.87137ed1.js.map"
+    "main.ab180242.css.map": "/portfolio-react-version/static/css/main.ab180242.css.map",
+    "main.cbd8e818.js.map": "/portfolio-react-version/static/js/main.cbd8e818.js.map"
   },
   "entrypoints": [
-    "static/css/main.30ae6f89.css",
-    "static/js/main.87137ed1.js"
+    "static/css/main.ab180242.css",
+    "static/js/main.cbd8e818.js"
   ]
 }
