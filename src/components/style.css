@@ -129,75 +129,59 @@ nav li a,
   justify-content: center;
 }
 
-.card {
+#project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.projects h4 {
+  background: white;
+  color: #00bfff;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-color: #00bfff;
+}
+
+.projects img {
+  width: 360px;
+  height: 300px;
+  margin-top: 20px;
+  border: #00bfff solid;
+}
+
+.projects p {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.img-contain {
+  object-fit: contain;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #00bfff;
   color: white;
-  margin: 10px;
-  border: 3px solid #00bfff;
-  flex-basis: 915px;
-  padding: 4em 4em 4em 6em;
-  max-width: 40%;
+  padding: 4px;
+  margin-top: 2px;
 }
 
-#project1,
-#project2,
-#project3 {
-  position: relative;
+.button-spacing {
+  margin-top: 5px;
 }
 
-.project-text {
-  position: absolute;
-  background-color: white;
-  padding: 15px;
-  left: 1%;
-  bottom: 7%;
-  font-size: 150%;
-}
-
-#project1 {
-  background: url(../images/Screen\ Shot\ 2023-04-15\ at\ 7.34.29\ PM.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-grow: 2;
-  flex-basis: 100%;
-  padding: 80px;
-  max-width: 70%;
-  height: 15em;
-  background-position-y: 10%;
-}
-
-#project1,
-#project2,
-#project3 {
-  cursor: pointer;
-}
-
-#project1 h5 {
-  font-size: 1.5em;
-}
-
-#project2 h5,
-#project3 h5 {
-  font-size: 95%;
-}
-#project2 p,
-#project3 p {
-  font-size: 75%;
-}
-
-#project2 {
-  background: url(../images/Screen\ Shot\ 2023-04-15\ at\ 7.35.25\ PM.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 20%;
-  padding: 6rem;
-}
-
-#project3 {
-  background: url(../images/Screen\ Shot\ 2023-04-15\ at\ 7.36.13\ PM.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 13%;
-  padding: 6rem;
+.tech-used {
+  margin-top: 6px;
 }
 
 /* Footer styling */
@@ -307,13 +291,13 @@ nav li a,
 @media screen and (max-width: 430px) {
   /* Nav styling */
   nav h1 {
-    padding: 10px 167px;
+    /* padding: 10px 167px; */
     margin-left: -10%;
   }
 
   nav {
     flex-direction: column;
-    padding-bottom: 23em;
+    padding-bottom: 18em;
   }
 
   nav ul {
@@ -327,7 +311,7 @@ nav li a,
   #heading h2 {
     padding-top: 3%;
     left: 0;
-    margin-left: 20%;
+    /* margin-left: 20%; */
   }
 
   #heading img {
@@ -335,9 +319,13 @@ nav li a,
   }
 
   #heading p {
-    left: 13%;
+    left: 12%;
     font-size: 16px;
     max-width: 80%;
+  }
+
+  #heading {
+    padding-bottom: 20px;
   }
 
   /* Portfolio styling */
@@ -351,37 +339,9 @@ nav li a,
     flex-direction: column;
   }
 
-  .card {
-    flex-basis: 300px;
-    margin-left: 30px;
-    padding: 10em 8em;
-  }
-
-  #project1 {
-    padding: 160px;
-    max-width: 100%;
-    width: 80%;
-    margin-left: 50px;
-  }
-
-  #project2,
-  #project3 {
-    padding: 38%;
-    left: 2%;
-  }
-
-  .project-text {
-    left: 12%;
-    bottom: 30%;
-    font-size: 100%;
-  }
-
-  #project1 .project-text {
-    bottom: 20%;
-  }
-
-  .project-text a {
-    text-decoration: none;
+  #project-flex {
+    justify-content: right;
+    margin-right: -2%;
   }
 
   /* Footer styling */
@@ -391,8 +351,8 @@ nav li a,
 
   #footer h2 {
     font-size: 2em;
-    padding-left: 42%;
-    left: -13%;
+    /* padding-left: 42%;
+    left: -13%; */
   }
 
   #footer ul {
@@ -411,9 +371,9 @@ nav li a,
   #resume ul {
     margin-left: -27%;
   }
-  #resume-download {
+  /* #resume-download {
     margin-left: -15%;
-  }
+  } */
 
   #resume-title {
     text-align: center;
@@ -449,16 +409,16 @@ nav li a,
   /* Nav styling */
   nav h1 {
     padding: 10px 360px;
-    margin-left: -6%;
+    /* margin-left: -6%; */
   }
   nav {
     flex-direction: column;
-    padding-bottom: 23em;
+    padding-bottom: 19em;
   }
 
   nav ul {
     flex-direction: column;
-    margin-left: -15px;
+    /* margin-left: -15px; */
   }
   nav ul li {
     padding-top: 0.5em;
@@ -466,12 +426,12 @@ nav li a,
   /* About Me styling */
   #heading h2 {
     padding-top: 3%;
-    left: 0;
-    margin-left: 35%;
+    /* left: 0;
+    margin-left: 35%; */
   }
 
   #heading img {
-    left: 28%;
+    left: 30%;
   }
 
   #heading p {
@@ -480,49 +440,20 @@ nav li a,
     max-width: 80%;
   }
 
+  #heading {
+    padding-bottom: 20px;
+  }
+
   /* Portfolio styling */
   #project-container h2 {
     margin-top: -2%;
   }
 
-  /* Portfolio project styling */
-  #card-container {
-    position: relative;
-    left: 0%;
-    flex-direction: column;
-  }
-
-  .card {
-    flex-basis: 400px;
-    margin-left: 30px;
-    padding: 0em 15em;
-  }
-
-  #project1 {
-    flex-basis: 500px;
-    max-width: 100%;
-    max-height: 400px;
-    width: 80%;
-    margin-left: 2%;
-  }
-
-  #project2,
-  #project3 {
-    padding: 30%;
-  }
-
-  .project-text {
-    left: 5%;
-    bottom: 15%;
-    font-size: 200%;
-    padding: 3rem;
-  }
-
   /* Footer styling */
   #footer h2 {
     font-size: 2em;
-    padding-left: 45%;
-    left: -6%;
+    /* padding-left: 45%;
+    left: -6%; */
   }
 
   #footer ul {
@@ -545,9 +476,9 @@ nav li a,
   #resume ul {
     margin-left: 10%;
   }
-  #resume-download {
+  /* #resume-download {
     margin-left: -10%;
-  }
+  } */
   #resume-title {
     left: 0;
     text-align: center;
