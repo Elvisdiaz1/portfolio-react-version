@@ -146,6 +146,7 @@ nav li a,
   padding-bottom: 5px;
   border-style: solid;
   border-color: #00bfff;
+  margin-right: 20px;
 }
 
 .projects img {
@@ -153,6 +154,7 @@ nav li a,
   height: 300px;
   margin-top: 20px;
   border: #00bfff solid;
+  margin-right: 20px;
 }
 
 .projects p {
@@ -343,6 +345,13 @@ nav li a,
     justify-content: right;
     margin-right: -2%;
   }
+  .projects h4 {
+    margin-right: 0px;
+  }
+
+  .projects img {
+    margin-right: 0px;
+  }
 
   /* Footer styling */
   #footer {
@@ -447,6 +456,14 @@ nav li a,
   /* Portfolio styling */
   #project-container h2 {
     margin-top: -2%;
+  }
+
+  .projects h4 {
+    margin-right: 0px;
+  }
+
+  .projects img {
+    margin-right: 0px;
   }
 
   /* Footer styling */

@@ -3,6 +3,7 @@ import historWeImg from "../images/historWe.png";
 import passwordGen from "../images/passwordGenerator.png";
 import breezyImg from "../images/breezyCocktail.png";
 import gameboxdImg from "../images/gameboxd.png";
+import crypto from "../images/Crypto-2.png";
 
 const style = {
   color: {
@@ -77,6 +78,33 @@ const Project = () => {
             </div>
             <div className="projects">
               <p>
+                <img src={crypto} alt="Crypto-Img" />
+              </p>
+              <h4 class="project-mid" id="second-line">
+                Crypto Blog
+                <p className="tech-used">HTML/CSS</p>
+                <p>
+                  <span className="button-spacing">
+                    <a
+                      className="button"
+                      href="https://github.com/Elvisdiaz1/Crypto-blog-site"
+                    >
+                      Github
+                    </a>
+                  </span>
+                  <span className="button-spacing">
+                    <a
+                      className="button"
+                      href="https://elvisdiaz1.github.io/Crypto-blog-site/"
+                    >
+                      Demo
+                    </a>
+                  </span>
+                </p>
+              </h4>
+            </div>
+            {/* <div className="projects">
+              <p>
                 <img
                   className="img-cover"
                   src={historWeImg}
@@ -105,8 +133,8 @@ const Project = () => {
                   </span>
                 </p>
               </h4>
-            </div>
-            <div className="projects">
+            </div> */}
+            {/* <div className="projects">
               <p href="https://www.google.com/?&bih=816&biw=1920&hl=en">
                 <img
                   className="img-contain"
@@ -136,7 +164,7 @@ const Project = () => {
                   </span>
                 </p>
               </h4>
-            </div>
+            </div> */}
             {/* <div className="projects">
               <p
                 class="no-padding"
