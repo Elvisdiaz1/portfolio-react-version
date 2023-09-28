@@ -3,7 +3,7 @@ import historWeImg from "../images/historWe.png";
 import passwordGen from "../images/passwordGenerator.png";
 import breezyImg from "../images/breezyCocktail.png";
 import gameboxdImg from "../images/gameboxd.png";
-import crypto from "../images/Crypto-2.png";
+import crypto from "../images/Crypto.png";
 
 const style = {
   color: {
