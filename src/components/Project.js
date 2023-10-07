@@ -138,7 +138,7 @@ const Project = () => {
             <div className="projects">
               <p>
                 <img
-                  className="img-cover"
+                  className="img-contain"
                   src={digitalClockImg}
                   alt="Digital-Clock"
                 />
