@@ -4,6 +4,7 @@ import passwordGen from "../images/passwordGenerator.png";
 import breezyImg from "../images/breezyCocktail.png";
 import gameboxdImg from "../images/gameboxd.png";
 import crypto from "../images/Crypto.png";
+import digitalClockImg from "../images/digital-clock.png";
 
 const style = {
   color: {
@@ -134,6 +135,37 @@ const Project = () => {
                 </p>
               </h4>
             </div> */}
+            <div className="projects">
+              <p>
+                <img
+                  className="img-cover"
+                  src={digitalClockImg}
+                  alt="Digital-Clock"
+                />
+              </p>
+              <h4 class="project-end" id="third-line">
+                Digital Clock
+                <p className="tech-used">HTML/CSS/Javascript</p>
+                <p>
+                  <span className="button-spacing">
+                    <a
+                      className="button"
+                      href="https://github.com/Elvisdiaz1/digitial-clock"
+                    >
+                      Github
+                    </a>
+                  </span>
+                  <span className="button-spacing">
+                    <a
+                      className="button"
+                      href="https://elvisdiaz1.github.io/digitial-clock/"
+                    >
+                      Demo
+                    </a>
+                  </span>
+                </p>
+              </h4>
+            </div>
             {/* <div className="projects">
               <p href="https://www.google.com/?&bih=816&biw=1920&hl=en">
                 <img
